@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1227535817" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug.263400431" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug"/>
+							<builder buildPath="${workspace_loc:/gdk-test}/Debug" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug.621772517" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug"/>
+							<tool command="as" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.340824619" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.480744310" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.199901420" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1902385089" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+								<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.849365142" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.1393065786" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.709971991" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cygwin.exe.debug.option.optimization.level.498517935" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.cygwin.exe.debug.option.debugging.level.1091489379" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1536707158" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\gtk-3.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\glib-2.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Cygwin\usr\include\gdk-pixbuf-2.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\libpng16&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\freetype2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr/include/pixman-1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/atk-1.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/harfbuzz&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/pango-1.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/cairo&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/gio-unix-2.0/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/dbus-1.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/at-spi-2.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/at-spi2-atk/2.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/gtk-3.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\GL&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1201706825" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1007808717" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug">
+								<option id="gnu.c.link.option.libs.761503987" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glib-2.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="intl"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gtk-3"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdk-3"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pangocairo-1.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pango-1.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="atk-1.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cairo-gobject"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cairo"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdk_pixbuf-2.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gio-2.0"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gobject-2.0"/>
+								</option>
+								<option id="gnu.c.link.option.paths.167994499" name="Library search path (-L)" superClass="gnu.c.link.option.paths"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.143756990" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.681310781" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="org.eclipse.cdt.managedbuilder.pkgconfig.extSettings" factoryId="org.eclipse.cdt.core.extension.container.factory"/>
+			</storageModule>
+			<storageModule ImageMagick="false" ImageMagick-6.Q16="false" ImageMagickplusplus="false" ImageMagickplusplus-6.Q16="false" MagickCore="false" MagickCore-6.Q16="false" MagickWand="false" MagickWand-6.Q16="false" Magickplusplus="false" Magickplusplus-6.Q16="false" ORBit-2.0="false" ORBit-CosNaming-2.0="false" ORBit-idl-2.0="false" ORBit-imodule-2.0="false" Qt5Bootstrap="false" Qt5CLucene="false" Qt5Concurrent="false" Qt5Core="false" Qt5DBus="false" Qt5Gui="false" Qt5Help="false" Qt5Network="false" Qt5OpenGL="false" Qt5OpenGLExtensions="false" Qt5PlatformSupport="false" Qt5PrintSupport="false" Qt5Qml="false" Qt5QmlDevTools="false" Qt5Quick="false" Qt5QuickParticles="false" Qt5QuickTest="false" Qt5QuickWidgets="false" Qt5Sql="false" Qt5Test="false" Qt5UiTools="false" Qt5Widgets="false" Qt5XcbQpa="false" Qt5Xml="false" QtCore="false" QtGui="false" QtOpenGL="false" Wand="false" Wand-6.Q16="false" adwaita-icon-theme="false" apr-1="false" apr-util-1="false" atk="false" atk-bridge-2.0="false" atspi-2="false" autoopts="false" autotrace="false" breakpad="false" cairo="false" cairo-egl="false" cairo-fc="false" cairo-ft="false" cairo-gl="false" cairo-glx="false" cairo-gobject="false" cairo-pdf="false" cairo-png="false" cairo-ps="false" cairo-script="false" cairo-svg="false" cairo-xcb="false" cairo-xcb-shm="false" cairo-xlib="false" cairo-xlib-xrender="false" check="false" cloog-isl="false" com_err="false" compositeproto="false" cppunit="false" damageproto="false" dbus-1="false" dri="false" egl="false" eigen3="false" epoxy="false" eventlog="false" expat="false" fixesproto="false" flac="false" flacplusplus="false" fontconfig="false" fontsproto="false" form="false" formw="false" freetype2="false" gdal="false" gdk-2.0="false" gdk-3.0="false" gdk-broadway-3.0="false" gdk-pixbuf-2.0="false" gdk-x11-2.0="false" gdk-x11-3.0="false" gdlib="false" gio-2.0="false" gio-unix-2.0="false" gl="false" gladeui-1.0="false" gladeui-2.0="false" glib-2.0="true" glm="false" glproto="false" glu="false" gmodule-2.0="false" gmodule-export-2.0="false" gmodule-no-export-2.0="false" gnome-doc-utils="false" gnome-mime-data-2.0="false" gnutls="false" gobject-2.0="false" gobject-introspection-1.0="false" gobject-introspection-no-export-1.0="false" graphite2="false" gsettings-desktop-schemas="false" gssrpc="false" gthread-2.0="false" gtk-doc="false" gtkplus-2.0="false" gtkplus-3.0="true" gtkplus-broadway-3.0="false" gtkplus-unix-print-2.0="false" gtkplus-unix-print-3.0="false" gtkplus-x11-2.0="false" gtkplus-x11-3.0="false" gtksourceview-3.0="false" gtranslator="false" harfbuzz="false" hogweed="false" ice="false" icu-i18n="false" icu-io="false" icu-le="false" icu-lx="false" icu-uc="false" inputproto="false" isl="false" jasper="false" kadm-client="false" kadm-server="false" kate="false" kbproto="false" kdb="false" krb5="false" krb5-gssapi="false" lcms="false" lcms2="false" libIDL-2.0="false" libcrypto="false" libdiscid="false" libecpg="false" libecpg_compat="false" libedit="false" libelf="false" libffi="false" libgcab-1.0="false" libidn="false" libiodbc="false" libjpeg="false" liblzma="false" libming="false" libmng="false" libmsi-1.0="false" libnfc="false" libpcre="false" libpcre16="false" libpcre32="false" libpcrecpp="false" libpcreposix="false" libpgtypes="false" libpipeline="false" libpng="false" libpng16="false" libpq="false" libproxy-1.0="false" libsasl2="false" libsmi="false" libssl="false" libsvn_auth_gnome_keyring="false" libsvn_client="false" libsvn_delta="false" libsvn_diff="false" libsvn_fs="false" libsvn_fs_base="false" libsvn_fs_fs="false" libsvn_fs_util="false" libsvn_fs_x="false" libsvn_ra="false" libsvn_ra_local="false" libsvn_ra_serf="false" libsvn_ra_svn="false" libsvn_repos="false" libsvn_subr="false" libsvn_wc="false" libtasn1="false" libtiff-4="false" libusb="false" libvala-0.26="false" libvala-0.30="false" libxml-2.0="false" libzip="false" mdds-1.2="false" menu="false" menuw="false" mit-krb5="false" mit-krb5-gssapi="false" mm-common-libstdcplusplus="false" mm-common-util="false" moduleId="packages" ncurses="false" ncursesplusplus="false" ncursesplusplusw="false" ncursesw="false" neon="false" nettle="false" ogg="false" oggkate="false" opencdk="false" openssl="false" orc-0.4="false" p11-kit-1="false" pakchois="false" panel="false" panelw="false" pango="false" pangocairo="false" pangoft2="false" pangoxft="false" pixman-1="false" presentproto="false" pstoedit="false" pygtksourceview-2.0="false" python-3.4="false" python3="false" randrproto="false" renderproto="false" resourceproto="false" scrnsaverproto="false" serf-1="false" slang="false" sm="false" spice-protocol="false" sqlite3="false" swipl="false" tic="false" ticw="false" tinyxml2="false" ustr="false" ustr-debug="false" uuid="false" vapigen="false" vapigen-0.26="false" vapigen-0.30="false" vorbis="false" vorbisenc="false" vorbisfile="false" vpx="false" weechat="false" x11="false" x11-xcb="false" xau="false" xbitmaps="false" xcb="false" xcb-glx="false" xcb-proto="false" xcb-render="false" xcb-shm="false" xcomposite="false" xcursor="false" xdamage="false" xdmcp="false" xext="false" xextproto="false" xf86bigfontproto="false" xfixes="false" xft="false" xi="false" xinerama="false" xineramaproto="false" xml2po="false" xmu="false" xmuu="false" xorg-macros="false" xorg-server="false" xorg-sgml-doctools="false" xpm="false" xpm-nox="false" xproto="false" xrandr="false" xrender="false" xt="false" xtrans="false" yelp-xsl="false" zlib="false" znc="false"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.release.785890258">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.release.785890258" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<macros>
+					<stringMacro name="GDK-3.0" type="VALUE_TEXT" value="C:\cygwin\usr\include\gtk-3.0"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.release.785890258" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.785890258." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.2029931399" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.exe.release.1414889817" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.exe.release"/>
+							<builder buildPath="${workspace_loc:/gdk-test}/Release" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.583804329" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1585567866" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.968695633" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1061681763" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.530691298" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
+								<option id="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level.1622122971" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level.483205437" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.597923355" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cygwin.exe.release.option.optimization.level.306979192" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.cygwin.exe.release.option.debugging.level.803037039" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.948007957" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\gtk-3.0&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.475266796" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.430240104" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.967161597" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.2142084768" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="gdk-test.cdt.managedbuild.target.gnu.cygwin.exe.748423962" name="Executable" projectType="cdt.managedbuild.target.gnu.cygwin.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594;cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.709971991;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1201706825">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.785890258;cdt.managedbuild.config.gnu.cygwin.exe.release.785890258.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.597923355;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.475266796">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/gdk-test"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/gdk-test"/>
+		</configuration>
+	</storageModule>
+</cproject>
