@@ -10,6 +10,14 @@ static void activate (GtkApplication* app){
   gtk_widget_show_all (window);
 }
 
+static gboolean render (GtkGLArea *area, GdkGLContext *context){
+	glClearColor(0,0,0,0);
+	glClear(GL_COLOR_BUFFER_BIT);
+
+
+	return TRUE;
+}
+
 int main (int argc,char **argv){
   GtkApplication *app;
   int status;
@@ -22,17 +30,11 @@ int main (int argc,char **argv){
 
 
   //gl startup code
-  GtkWidget *gl_area = gtk_gl_area_new();
-
+  GtkWidget *glArea = gtk_gl_area_new();
+  g_signal_connect(glArea,"render", G_CALLBACK(render),NULL);
   //end gl code
 
   return status;
 }
 
-static gboolean render (GtkGLArea *area, GdkGLContext *context){
-	glClearColor(0,0,0,0);
-	glClear(GL_COLOR_BUFFER_BIT);
 
-
-
-}
