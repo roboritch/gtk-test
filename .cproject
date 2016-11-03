@@ -3,7 +3,26 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.488314594" moduleId="org.eclipse.cdt.core.settings" name="Debug">
-				<externalSettings/>
+				<externalSettings>
+					<externalSetting>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr\include\GL"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/gtk-3.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/at-spi2-atk/2.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/at-spi-2.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/dbus-1.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/gio-unix-2.0/"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/cairo"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/pango-1.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/harfbuzz"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin/usr/include/atk-1.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr/include/pixman-1"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr\include\freetype2"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr\include\libpng16"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\Cygwin\usr\include\gdk-pixbuf-2.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr\include\glib-2.0"/>
+						<entry flags="RESOLVED" kind="includePath" name="C:\cygwin\usr\include\gtk-3.0"/>
+					</externalSetting>
+				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -30,42 +49,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.709971991" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cygwin.exe.debug.option.optimization.level.498517935" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.cygwin.exe.debug.option.debugging.level.1091489379" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.1536707158" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\gtk-3.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\glib-2.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Cygwin\usr\include\gdk-pixbuf-2.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\libpng16&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\freetype2&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr/include/pixman-1&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/atk-1.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/harfbuzz&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/pango-1.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/cairo&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/gio-unix-2.0/&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/dbus-1.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/at-spi-2.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/at-spi2-atk/2.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin/usr/include/gtk-3.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\GL&quot;"/>
-								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1201706825" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1007808717" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug">
-								<option id="gnu.c.link.option.libs.761503987" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glib-2.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="intl"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gtk-3"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdk-3"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pangocairo-1.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pango-1.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="atk-1.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cairo-gobject"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cairo"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdk_pixbuf-2.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gio-2.0"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gobject-2.0"/>
-								</option>
-								<option id="gnu.c.link.option.paths.167994499" name="Library search path (-L)" superClass="gnu.c.link.option.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.143756990" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -74,9 +60,6 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.681310781" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug"/>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
@@ -116,7 +99,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.597923355" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cygwin.exe.release.option.optimization.level.306979192" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.release.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.cygwin.exe.release.option.debugging.level.803037039" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.948007957" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+								<option id="gnu.c.compiler.option.include.paths.948007957" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include\gtk-3.0&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.475266796" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
@@ -159,4 +142,5 @@
 			<resource resourceType="PROJECT" workspacePath="/gdk-test"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
